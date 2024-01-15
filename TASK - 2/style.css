@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     /* font-family: 'Ubuntu', sans-serif; */
-    font-family: MBCorpo Text,sans-serif;
+    font-family: MBCorpo Text, sans-serif;
 }
 
 .container {
@@ -12,30 +12,35 @@
     /* background-color: #424242; */
     background-color: black;
 }
+
 .logo {
     font-size: 1.2rem;
-} 
-.logo_img img{
-    max-height: 76px;
-    max-width:76px;
-    padding-left:30px;
-    padding-top:10px;
 }
+
+.logo_img img {
+    max-height: 76px;
+    max-width: 76px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
 .main {
     min-height: 100vh;
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
+
 .main-heading {
-    margin-left:200px;
-    margin-top:30px;
+    margin-left: 200px;
+    margin-top: 30px;
     font-size: 30px;
-    color: antiquewhite;
+    color: white;
     text-shadow: 3px 0px 7px rgba(146, 143, 143, 0), -3px 0px 2px;
 }
+
 .main-pera {
-    margin-top:20px;
-    margin-left:200px;
-    width:50%;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 50%;
     font-size: 20px;
     color: antiquewhite;
     text-shadow: 3px 4px 7px rgba(26, 13, 15, 0.8);
@@ -49,11 +54,63 @@
     /* background: url(https://wallpapercave.com/wp/wp5441239.jpg) no-repeat; */
 }
 
-/* ************** */
+/* Basic styling for the slider container and images */
+.slider-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 70px;
+    overflow: hidden;
+    max-height: 60%;
+    box-shadow: 0 0.3em 1em #000;
+    border-radius: 5px;
+    background-color: #151515;
+}
 
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    margin-left: 100px;
+    margin-top: 40px;
+}
 
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
 
-/* ******************** */
+}
+
+/* Optional: Add styling for navigation buttons */
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slider-nav button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.slide>div {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: 250px;
+    max-height: 100%;
+}
+
+.slides .slide img {
+    height: 90%;
+    width: 85%;
+    box-shadow: 0 0.3em 1em #000;
+    border-radius: 10px;
+}
 
 /* .auto-show {
     padding-top: 150px;
@@ -63,36 +120,43 @@
 .navbar {
     /* background-color: skyblue; */
     display: flex;
-    height:67px;
+    height: 67px;
     color: white;
 }
+
 .navbar li {
-    list-style:none;
+    list-style: none;
     margin: 0 35px;
-    
+
 }
+
 .navbar a {
     color: white;
     text-decoration: none;
 }
+
 .navbar a:hover {
     text-decoration: underline;
 }
+
 header {
     background-color: black;
 }
 
 .footer {
-    background-color:black;
-    height:20%;
-    border-left:none;
+    background-color: black;
+    height: 20%;
+    border-left: none;
     border-top-style: outset;
     border-bottom-style: outset;
-    border-color:lightgray;
+    border-color: lightgray;
     border-width: 0.2px;
     max-width: 80%;
     margin: auto;
     text-align: center;
-    padding-top:40px;
+    padding-top: 40px;
 }
-.inner-footer{margin:auto}
+
+.inner-footer {
+    margin: auto
+}
