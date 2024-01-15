@@ -1,0 +1,32 @@
+
+.flex {
+    display:flex;
+    flex-direction: row;
+}
+.justify-content {
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.mx-auto {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.text-color {
+    color:antiquewhite;
+}
+
+.bg-size-contain {
+    background-size: contain;
+}

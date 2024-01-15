@@ -8,9 +8,12 @@ body {
     width: 60%;
     border:1px solid black;
     padding: 20px;
-    margin-top:60px;
+    margin-top:160px;
+    margin-bottom:160px;
     display: inline-block; column-gap: 20px; justify-content: space-between;
     row-gap:400px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 .header{
     color: white;
@@ -26,7 +29,7 @@ body {
     margin-top:80px;
     margin-bottom:35px;
     border-radius:10px;
-
+    box-shadow: 0 0 10px rgb(148, 68, 148);
 }
 
 p {
@@ -64,6 +67,7 @@ page.h2 {
     margin-top:30px;
     margin-bottom:35px;
     border-radius:10px;
+    box-shadow: 0 0 10px rgb(148, 68, 148);
 }
 
 .card {
