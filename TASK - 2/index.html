@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mercedes-Benz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utils.css">
 </head>
@@ -25,7 +25,7 @@
             </nav>
         </header>
         <hr>
-        <div class="main">
+        <main class="main">
             <!-- <div class="bg-img bg-size-contain">
                 <h1 class="auto-show text-color"></h1>
             </div> -->
@@ -37,6 +37,9 @@
                     <div class="slide"><img src="https://wallpapercave.com/wp/wp5441239.jpg" alt="Slide 2"></div>
                     <div class="slide"><img src="https://images.pexels.com/photos/195954/pexels-photo-195954.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Slide 3"></div>
                     <div class="slide"><img src="https://th.bing.com/th/id/R.672d7fa9d2187d46681382c172d33a1d?rik=%2f5EBCqTksxJQHA&riu=http%3a%2f%2fwww.hdcarwallpapers.com%2fdownload%2fcigarette_racing_vision_gt_mercedes_benz_2014-1920x1080.jpg&ehk=1UGRJRSLEivTadGNZ7tHh9LSRLkjy1WmP8vamZ4dzTk%3d&risl=&pid=ImgRaw&r=0" alt="Slide 4"></div>
+                    <div class="slide"><img src="https://wallpapercave.com/wp/wp1846592.jpg" alt="Slide 4"></div>
+                    <div class="slide"><img src="https://i.pinimg.com/originals/96/43/3e/96433e988320612c50617f3e4891de7b.jpg" alt="Slide 4"></div>
+
                     <!-- Add more slides as needed -->
                 </div>
 
@@ -54,16 +57,17 @@
             <div class="main-pera"><p>This is the moment to uniquely and unapologetically be yourself. 
                 No matter what path you are on, we are here to support your independent mobility and your individuality.</p>
             </div>
-        </div>
-        <div class="footer">           
+        </main>
+        <footer class="footer">           
             <img src="https://www.mercedes-benz.com/content/dam/brandhub/global/logos/logo_footer.svg" alt="Mercedes-benz">
-        </div>
+        </footer>
     </div>
 
 
     <script>
         let currentIndex = 0;
         const totalSlides = document.querySelectorAll('.slide').length;
+        // alert(totalSlides);
 
         function showSlide(index) {
             const slides = document.querySelector('.slides');
