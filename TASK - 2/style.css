@@ -3,11 +3,13 @@
     padding: 0;
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: MBCorpo Text, sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
     max-width: 80vw;
-    height: 200vh;
+    height: auto;
+    min-height:200vh;
     font-family: 'Ubuntu', sans-serif;
     /* background-color: #424242; */
     background-color: black;
@@ -106,7 +108,7 @@ main {
 }
 
 .slides .slide img {
-    height: 90%;
+    height: 77%;
     width: 85%;
     box-shadow: 0 0.3em 1em #000;
     border-radius: 10px;
@@ -145,27 +147,22 @@ header {
 
 footer {
     background-color: black;
-    max-height: 20%;
-    border-left: none;
-    border-top-style: outset;
-    border-bottom-style: outset;
-    border-color: lightgray;
-    border-width: 0.2px;
+    height:auto;
+    min-height: 20%;
     max-width: 80%;
     margin: auto;
     margin-bottom: 70px;
     text-align: center;
     padding-top: 40px;
+    border-left: none;
+    border-top-style: outset;
+    border-bottom-style: outset;
+    border-color: lightgray;
+    border-width: 0.2px;
+    
 }
 footer > img {
     min-height:auto;
     margin-bottom: 50px;
 }
 
-@media screen and (min-height:170vh) {
-    footer > img {
-        height:100px;
-        width:auto;
-        margin-top:50px;
-    }
-}
