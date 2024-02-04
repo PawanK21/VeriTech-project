@@ -190,7 +190,7 @@ input[type="radio"] {
     display: none;
 }
 
-.accordion .content {
+.accordion .content { 
     background: #303030;
     text-align: left;
     padding: 0 20px;
@@ -252,4 +252,78 @@ input[type="radio"] {
     color: #fff;
     padding: 10px 20px;
     border-radius: 3px;
+}
+
+.copyright-txt {
+    font-size: 14px;
+    margin-top: 21px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width:600px) {
+    .logo {
+        width: 100px;
+        height: 110px;
+        margin-left:10px;
+        margin-bottom: 10px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+    }
+    
+    nav .lang-btn {
+        padding: 4px 8px;
+    }
+
+    .header-content {
+        position: unset;
+        transform: none;
+        padding-top: 80px;
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .sign-up button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .text-col, .img-col {
+        flex-basis: 100%;;
+    }
+
+    .main-features h2{
+        font-size: 30px;
+    }
+    .main-features p {
+        font-size: 15px;
+    }
+
+    .row:nth-child(2), .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+
+    .main-features .row {
+        padding: 10px 0;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .accordion .content {
+        font-size: 14px;
+    }
+
+    .accordion li label {
+        padding: 10px;
+        font-size: 14px;
+    }    
+
+    label::after {
+        font-size: 22px;
+    }
 }
